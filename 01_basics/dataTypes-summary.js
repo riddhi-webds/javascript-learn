@@ -29,7 +29,7 @@ const myFunction = function () {
     console.log("Hello world");
 }
 
-console.log(typeof bigNumber);
+// console.log(typeof bigNumber);
 
 // score => number
 // scoreValue => number
@@ -44,9 +44,25 @@ console.log(typeof bigNumber);
 // bigNumber => bigint
 
 
-
-
-
 // +++++++++++++++++++
 
 // stack (primitive), heap (non-primitive) memory
+
+let myYoutubename = "riddhihapani"
+
+let anoutherName = myYoutubename
+anoutherName = "riddhi"
+
+console.log(anoutherName);
+console.log(myYoutubename);
+
+let userOne = {
+    email: "riddhi.com",
+    upi: "user@hbh"
+}
+
+let userTwo = userOne
+userTwo.email = "ritz@.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
