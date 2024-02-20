@@ -1,4 +1,4 @@
-// for of 
+// forof loop use for array 
 
 // ["", "", ""]
 // [{}, {} , {}]
