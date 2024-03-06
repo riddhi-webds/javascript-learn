@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML EVENTS</title>
+</head>
+
+<body style="background-color: #414141; color: aliceblue;">
+    <h2>Amazing Images</h2>
+    <div>
+        <ul id="images">
+            <li><img width="200px" id="photoshop"
+                    src="https://images.pexels.com/photos/20447460/pexels-photo-20447460/free-photo-of-palm-trees-paradise.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt="photoshop" </li>
+            <li><img width="200px" id="japan"
+                    src="https://images.pexels.com/photos/20291131/pexels-photo-20291131/free-photo-of-a-wooden-boat-is-sitting-in-the-middle-of-a-lake.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt="" </li>
+            <li><img width="200px" id="river"
+                    src="https://images.pexels.com/photos/20421870/pexels-photo-20421870/free-photo-of-a-deer-standing-in-a-field-with-fall-colors-in-the-background.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt="" </li>
+            <li><img width="200px" id="owl"
+                    src="https://images.pexels.com/photos/20258514/pexels-photo-20258514/free-photo-of-feeding-the-serelepe.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt="" </li>
+            <li><img width="200px" id="prayer"
+                    src="https://images.pexels.com/photos/20447450/pexels-photo-20447450/free-photo-of-galungan-ceremony.jpeg"
+                    alt="" </li>
+            <li><a style="color: aliceblue;"="https://google.com" id="google">Google</a></li>
+        </ul>
+    </div>
+
+</body>
+<script>
+    // document.getElementById('owl').onclick = function () {
+    //     alert("owl clicked")
+    // } 
+
+    // attechEvent
+    // jQuery - on
+
+    // type, timeStamp, defaultPrevented
+    // target, toElement, srcElement, currentTarget
+    // clientX, clientY, screenX, screenY
+    // altkey, ctrlkey, shiftkey, keycode
+
+    document.getElementById('owl').addEventListener('click', function (e) {
+        console.log(e);
+    }, false)
+
+
+</script>
+
+</html>
